@@ -1,0 +1,38 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Your Name',
+  date: '2023-06-08',
+  title: "Leveraging AI to Foster Sustainable Investment Choices on Wealthsimple's Platform",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+As a leading force in the fintech sector, Wealthsimple has simplified the investment process, making it accessible and comprehensible to both novice and experienced investors. However, the journey to refining user experience and promoting sustainable investment choices is a continuous one.
+
+<Image src={designSystem} alt="" />
+
+## Understanding the Problem
+
+In the current financial landscape, investors increasingly seek opportunities to align their portfolios with their values, particularly concerning environmental, social, and governance (ESG) criteria. Yet, it can be challenging to identify investment options that genuinely resonate with individual sustainability goals, given the plethora of available information and sometimes misleading corporate sustainability reports.
+
+Moreover, the rapid pace of the financial markets sometimes encourages hasty investment decisions, which may not always align with the investors' long-term sustainability objectives. This scenario highlights a gap where technology can facilitate more informed and conscious investment choices.
+
+## Proposing a Solution
+
+I propose the integration of an AI-driven feature within the Wealthsimple platform that offers personalized, real-time sustainability insights and recommendations. This innovative tool would analyze a myriad of data points from credible sources to generate an accurate sustainability score for various investment options, assisting users in making informed decisions that align with their values.
+
+Furthermore, the AI could suggest portfolio adjustments based on changing market conditions and emerging sustainability trends, encouraging users to adopt a proactive approach to sustainable investing. It could also offer educational content to help users understand the potential societal and environmental impacts of their investment choices, fostering a culture of responsible investing.
+
+To discourage impulsive investment decisions, the tool could integrate a feature that encourages users to pause and consider the long-term implications of their choices, potentially suggesting alternative options that better align with their sustainability objectives.
+
+## Conclusion
+
+Implementing this AI-driven feature would signify Wealthsimple's commitment to fostering responsible investment behavior, aligning perfectly with the rising trend of sustainable finance. It would not only enhance user experience by offering personalized insights but also position Wealthsimple as a frontrunner in promoting sustainable investment practices in the fintech sector. As a software developer, I am eager to contribute to this vision, leveraging technology to shape a more sustainable and financially inclusive future.

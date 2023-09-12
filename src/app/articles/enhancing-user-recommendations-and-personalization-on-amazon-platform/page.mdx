@@ -1,0 +1,39 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import designSystem from './planetaria-design-system.png'
+
+export const article = {
+  author: 'Fuaad Shobambi',
+  date: '2022-12-21',
+  title:
+    "Enhancing User Recommendations and Personalization on Amazon's Platform",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+As the world's most extensive e-commerce platform, Amazon has revolutionized the way we shop and interact with the retail market. It's a hallmark of innovation, convenience, and customer-centric approaches. But even amidst its successes, there remains room for improvement to further enhance user experience and eco-friendliness through its website.
+
+<Image src={designSystem} alt="" />
+
+## Understanding the Problem
+
+In the current configuration, Amazon utilizes an AI-powered recommendation system that suggests products based on user history and popular trends. However, this system, at times, can promote overconsumption by pushing products that may not be necessary or relevant to the user. It may often recommend physical products where digital or more sustainable alternatives exist, contributing to increased manufacturing demands and carbon footprint.
+
+Moreover, the return rate of products bought through online platforms is significantly higher compared to retail purchases. A fraction of these returns can be attributed to impulsive buying, spurred by aggressive recommendation algorithms. This not only increases the logistical carbon footprint due to increased shipping and handling but also results in a substantial amount of waste, as not all returned products are resellable.
+
+## Proposing a Solution
+
+To remedy this, I propose the development of a more intuitive and sustainable recommendation algorithm. The core of this technology would be an AI that understands individual user preferences at a much deeper level, including their propensity for sustainable choices. It could give users the option to prioritize eco-friendly products in their recommendations, subtly encouraging a shift towards more sustainable consumption.
+
+Furthermore, integrating a feature that allows users to see the potential environmental impact of their purchases directly could be a groundbreaking step towards fostering a culture of responsible consumption. This could be paired with incentives for choosing environmentally friendly options, such as rewards or discount programs, which would be calculated based on the carbon footprint saved by such choices.
+
+To facilitate less impulsive buying, the new algorithm could also include a feature that encourages users to take a moment before finalizing a purchase, offering alternatives or asking them to reconsider the necessity of the product. This not only helps in reducing the number of returns but also nurtures a more mindful shopping approach.
+
+## Conclusion
+
+To remedy this, I propose the development of a more intuitive and sustainable recommendation algorithm. The core of this technology would be an AI that understands individual user preferences at a much deeper level, including their propensity for sustainable choices. It could give users the option to prioritize eco-friendly products in their recommendations, subtly encouraging a shift towards more sustainable consumption.

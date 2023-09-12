@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image, { type ImageProps } from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
@@ -14,10 +15,7 @@ import {
 import logoAse from '@/images/logos/ase.png'
 import logoEip from '@/images/logos/hibba.png'
 import logoUoft from '@/images/logos/uoft.jpeg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoSau from '@/images/logos/sau.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.avif'
 import image3 from '@/images/photos/image-3.jpg'
@@ -213,6 +211,13 @@ function Resume() {
       start: '2023',
       end: '2023',
     },
+    {
+      company: 'Shenyang Aerospace University',
+      title: 'Software Developer Intern',
+      logo: logoSau,
+      start: '2022',
+      end: '2022',
+    },
   ]
 
   return (
@@ -272,7 +277,7 @@ export default async function Home() {
             Software developer and Tech founder.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Fuaad Shobambi, a Toronto-based software developer and tech entrepreneur. I am the founder of Torus, a company specializing in crafting websites for businesses in the Greater Toronto Area. With a passion for innovation, I drive cutting-edge solutions that redefine industries. With a strong foundation in software design and development.
+            I'm Fuaad Shobambi, a software developer with a knack for innovation right in the vibrant heart of Toronto. When I'm not crafting cutting-edge websites as the founder of Torus, I'm contributing to Toronto's corporate sphere with insightful articles. Through my writings, I offer fresh perspectives and groundbreaking ideas that help solve pressing issues and foster innovation. Join me at the crossroads of technology and creativity, where coding expertise meets visionary thinking.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

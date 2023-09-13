@@ -74,7 +74,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Hey there! I'm Fuaad Shobambi, a guy who swapped the lively streets of Nigeria for the bustling tech scene of Toronto. It's here that I sprinkle a bit of my heritage into the world of software development, meshing the warmth of my roots with the cold, logical beauty of code. With a Computer Science degree tucked under my belt, I create web applications that feel like a friendly chat, connecting people one user-friendly interface at a time.
+              I'm a guy who swapped the lively streets of Lagos, Nigeria and Shenyang, China for the bustling tech scene of Toronto. It's here that I sprinkle a bit of my heritage into the world of software development, meshing the warmth of my roots with the cold, logical beauty of code. With a Computer Science degree tucked under my belt, I create web applications that feel like a friendly chat, connecting people one user-friendly interface at a time.
             </p>
             <p>
               Raised amidst vibrant hues and artistry thanks to my dad, the family artist, I embraced the digital canvas for my creations. Now, every project I touch embodies that childhood vibrancy and imagination, turning codes into colorful masterpieces.

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Fuaad Shobambi',
     default:
-      'Fuaad Shobambi - Software developer and Tech founder',
+      'Fuaad Shobambi - Software developer and Tech Entrepreneur',
   },
   description:
     "I'm Fuaad Shobambi, a Toronto-based software designer and tech entrepreneur. I'm the founder of Torus, a company specializing in crafting websites for businesses. With a passion for innovation, I drive cutting-edge solutions that redefine industries. With a strong foundation in software design and development.",

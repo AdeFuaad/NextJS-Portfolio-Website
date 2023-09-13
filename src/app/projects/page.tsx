@@ -3,47 +3,68 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
+import logoClima from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoPortfolio from '@/images/logos/port.png'
+import logoAse from '@/images/logos/ase_logo2.png'
+import logoFuaad from '@/images/logos/fuaad.svg'
+import logoEip from '@/images/logos/eip-pod.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Ase Community Foundation',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'A verified A++ non-profit organization dedicated to supporting black Canadians with disabilities by providing comprehensive resources and assistance to foster inclusivity and empowerment.',
+    link: { href: 'https://asecommunityfoundation.com/', label: 'asecommunityfoundation • Javascript' },
+    logo: logoAse,
+  },
+  {
+    name: 'OpsHub',
+    description: 'A streamlined data management solution offering secure CRUD operations, advanced search capabilities, robust user authentication, and role-based access control for optimized business operations.',
+    link: { href: 'https://github.com/AdeFuaad/restaurant-management-system', label: 'OpsHub  •  Java' },
+    logo: logoFuaad,
+  },
+  {
+    name: 'AI Summarizer',
+    description: 'A sophisticated AI-powered platform where users can succinctly summarize blogs and articles, facilitating efficient content consumption by presenting the key insights and highlights in a streamlined manner.',
+    link: { href: 'https://snazzy-fudge-9b062f.netlify.app/', label: 'aisummarizer • React' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    name: 'UAEHut',
+    description: 'A streamlined platform for UAE residents to discover apartments for sale or rent, featuring comprehensive listings with vivid imagery.',
+    link: { href: 'https://uae-huts.vercel.app/', label: 'uaehut • Next' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'LineLogic',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'A website that allows users view the top youtube videos and github repositories to further improve their coding skills',
+    link: { href: 'https://adefuaad.github.io/LineLogic/', label: 'linelogic • Javascript' },
+    logo: logoOpenShuttle,
   },
   {
-    name: 'OpenShuttle',
+    name: 'MetaClima',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'A global weather forecast tool providing 5-day city-specific predictions.',
+    link: { href: 'https://adefuaad.github.io/weatherApp/', label: 'metaclima • Javascript' },
+    logo: logoClima,
+  },
+  {
+    name: 'Portfolio',
+    description:
+      "A curated showcase of projects illustrating technical expertise and innovative solutions in software development.",
+    link: { href: '/', label: 'fuaad shobambi • Next' },
+    logo: logoPortfolio,
+  },
+  {
+    name: 'EIP (Under Development)',
+    description: 'An avant-garde podcast platform hosting a wide variety of insightful episodes. Join experts in Intellectual Property & Technology Law as they discuss the latest trends and developments.',
+    link: { href: 'https://eip-podcast-x4au.vercel.app/', label: 'eip • Next' },
+    logo: logoEip,
   },
 ]
 

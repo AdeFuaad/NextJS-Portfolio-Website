@@ -42,81 +42,91 @@ export const metadata = {
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Toolset and Recommendations"
+      intro="Often, I am approached by enthusiasts and fellow developers inquiring about the tools I use to engineer software solutions or enhance productivity. In this space, I am sharing an extensive list of all the resources I favor and rely on in my professional voyage."
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
-          </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
-            The only display on the market if you want something HiDPI and
-            bigger than 27”. When you’re working at planetary scale, every pixel
-            you can get counts.
-          </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
-          </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
-          </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="M2 MacBook Air">
+            My everyday device for coding is the ultra-fast and powerful M2 MacBook Air. Its remarkable performance and efficiency greatly enhance my coding experience, making it a vital tool in my software development endeavors.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development tools">
-          <Tool title="Sublime Text 4">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+        <ToolsSection title="Development Tools">
+          <Tool title="JavaScript">
+            A core technology of the web, JavaScript enables me to create dynamic content and implement complex features on websites. It is a versatile language known for its crucial role in web development, allowing for the creation of rich and interactive web applications.
           </Tool>
-          <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+          <Tool title="Java">
+            Java, a high-level, class-based, and object-oriented programming language, is known for its portability and robust performance. I leverage its versatility to build a wide array of applications, ranging from mobile applications to enterprise-scale systems.
           </Tool>
-          <Tool title="TablePlus">
-            Great software for working with databases. Has saved me from
-            building about a thousand admin interfaces for my various projects
-            over the years.
+          <Tool title="React">
+            React, a powerful JavaScript library, empowers me to build user interfaces with a component-based architecture. It facilitates the creation of reusable UI components, enhancing the speed and efficiency of the development process.
+          </Tool>
+          <Tool title="Node.js">
+            As a server-side platform built on Chrome JavaScript runtime, Node.js allows me to develop scalable network applications. It is known for its non-blocking, event-driven I/O model, making it lightweight and efficient, perfect for data-intensive real-time applications.
+          </Tool>
+          <Tool title="Express.js">
+            A minimal and flexible Node.js web application framework, Express.js helps me quickly build robust APIs. It streamlines the creation of server-side logic, offering a range of features to develop web and mobile applications.
+          </Tool>
+          <Tool title="GraphQL">
+            GraphQL serves as a query language for APIs, enabling me to request only the data I need, and nothing more. It provides a more efficient, powerful, and flexible alternative to the traditional REST API, allowing for more precise data retrieval.
+          </Tool>
+          <Tool title="MongoDB">
+            MongoDB, a popular NoSQL database, offers flexibility in handling data storage. I use it to create scalable and performance-oriented database solutions, facilitating the storage of data in a JSON-like format, which makes it easier to pass data between client and server.
+          </Tool>
+          <Tool title="HTML/CSS">
+            HTML and CSS are foundational technologies in web development. I utilize HTML to structure web pages and use CSS to style them, crafting visually captivating and responsive web designs that offer excellent user experiences.
+          </Tool>
+          <Tool title="RESTful APIs & Responsive Design">
+            I specialize in crafting RESTful APIs, which enable the interaction between different software components in a standard way. Additionally, my expertise in responsive design ensures a seamless and pleasing user experience across a variety of devices and screen sizes.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            Initially, I utilized Figma solely as a design instrument, but it swiftly transformed into a comprehensive virtual whiteboard for my entire team. The collaborative features, which I had not anticipated becoming the main attraction, now stand as a central hub for our innovative brainstorming and project visualization.
+          </Tool>
+
+        </ToolsSection>
+        <ToolsSection title="Tech Tools">
+          <Tool title="Git">
+            I utilize Git for efficient version control, facilitating smooth collaboration and code management.
+          </Tool>
+          <Tool title="Postman">
+            Postman is an integral tool in my kit, aiding in the development and testing of APIs.
+          </Tool>
+          <Tool title="Insomnia">
+            I use Insomnia for testing REST APIs, streamlining the development process through easy-to-use functionalities.
+          </Tool>
+          <Tool title="Heroku">
+            Heroku is my preferred platform for deploying, managing, and scaling applications effortlessly.
+          </Tool>
+          <Tool title="Netlify">
+            Netlify assists me in building, deploying, and hosting modern web projects with ease.
+          </Tool>
+          <Tool title="Visual Studio">
+            Visual Studio serves as a powerful IDE, offering a range of features for seamless code development and debugging.
+          </Tool>
+          <Tool title="Eclipse">
+            Eclipse is another reliable IDE in my toolkit, facilitating the development of Java applications and more.
+          </Tool>
+          <Tool title="MS Office">
+            MS Office supports my administrative and documentation needs, offering a suite of applications for various tasks.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
+          <Tool title="Notion">
+            A versatile tool that combines note-taking, wiki creation, and task management, helping teams to organize and prioritize work in a collaborative environment.
           </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
+          <Tool title="Discord">
+            A communication platform designed for creating communities, offering voice, video, and text communication channels along with various integrations, making it a popular choice among developers and gamers.
+          </Tool>
+          <Tool title="Slack">
+            A business communication platform offering a variety of channels and direct messaging, integrations, and features that foster collaboration and streamline workflows within teams.
           </Tool>
           <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+            Great tool for scheduling meetings while protecting my calendar and making sure I still have lots of time for deep work during the week.
           </Tool>
         </ToolsSection>
+
       </div>
     </SimpleLayout>
   )

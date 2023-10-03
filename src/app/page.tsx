@@ -231,7 +231,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="https://green-annnora-92.tiiny.site" target="_blank" rel="noopener noreferrer" variant="secondary" className="group mt-6 w-full">
+      <Button href="https://fuaadshobambi.tiiny.site" target="_blank" rel="noopener noreferrer" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>

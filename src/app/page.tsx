@@ -12,6 +12,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+import logoJunction59 from '@/images/logos/junction59.jpeg'
 import logoAse from '@/images/logos/ase.png'
 import logoEip from '@/images/logos/adeola.png'
 import logoUoft from '@/images/logos/uoft.jpeg'
@@ -188,6 +189,16 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Junction 59',
+      title: 'Software Developer',
+      logo: logoJunction59,
+      start: '2023',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'Ase',
       title: 'Software Developer',
       logo: logoAse,
@@ -205,8 +216,8 @@ function Resume() {
       end: '2023',
     },
     {
-      company: 'University of Toronto School of Continuous Studies',
-      title: 'Full-stack Developer (Student)',
+      company: 'University of Toronto SCS',
+      title: 'Full-stack Developer',
       logo: logoUoft,
       start: '2023',
       end: '2023',

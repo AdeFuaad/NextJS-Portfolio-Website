@@ -15,7 +15,6 @@ import {
 import logoJunction59 from '@/images/logos/junction59.jpeg'
 import logoAse from '@/images/logos/ase.png'
 import logoEip from '@/images/logos/adeola.png'
-import logoUoft from '@/images/logos/uoft.jpeg'
 import logoSau from '@/images/logos/sau.png'
 import image1 from '@/images/photos/image-2.avif'
 import image2 from '@/images/photos/me-tony.jpg'
@@ -189,12 +188,22 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Scotiabank',
+      title: 'Software Engineer',
+      logo: 'https://logos-world.net/wp-content/uploads/2021/03/Scotiabank-Symbol.png',
+      start: '2024',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'Junction 59',
       title: 'Software Developer',
       logo: logoJunction59,
       start: '2023',
       end: {
-        label: 'Present',
+        label: '2023',
         dateTime: new Date().getFullYear().toString(),
       },
     },
@@ -204,7 +213,7 @@ function Resume() {
       logo: logoAse,
       start: '2023',
       end: {
-        label: 'Present',
+        label: '2024',
         dateTime: new Date().getFullYear().toString(),
       },
     },
@@ -212,13 +221,6 @@ function Resume() {
       company: 'Everything IP',
       title: 'Frontend Developer',
       logo: logoEip,
-      start: '2023',
-      end: '2023',
-    },
-    {
-      company: 'University of Toronto SCS',
-      title: 'Full-stack Developer',
-      logo: logoUoft,
       start: '2023',
       end: '2023',
     },

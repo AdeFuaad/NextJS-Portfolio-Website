@@ -47,37 +47,55 @@ export default function Uses() {
     >
       <div className="space-y-20">
         <ToolsSection title="Workstation">
-          <Tool title="M2 MacBook Air">
-            My everyday device for coding is the ultra-fast and powerful M2 MacBook Air. Its remarkable performance and efficiency greatly enhance my coding experience, making it a vital tool in my software development endeavors.
+          <Tool title="MacBook Pro M1 Max">
+            My primary development machine is the powerful MacBook Pro M1 Max with 64GB RAM and 2TB storage. This high-performance setup ensures smooth handling of multiple development environments, virtual machines, and resource-intensive applications simultaneously.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development Tools">
-          <Tool title="JavaScript">
-            A core technology of the web, JavaScript enables me to create dynamic content and implement complex features on websites. It is a versatile language known for its crucial role in web development, allowing for the creation of rich and interactive web applications.
+          <Tool title="Next.js">
+            My primary framework for building modern web applications, providing powerful features like server-side rendering, API routes, and optimized performance out of the box.
           </Tool>
-          <Tool title="Java">
-            Java, a high-level, class-based, and object-oriented programming language, is known for its portability and robust performance. I leverage its versatility to build a wide array of applications, ranging from mobile applications to enterprise-scale systems.
+          <Tool title="TypeScript">
+            Essential for type-safe development, catching errors early and providing enhanced IDE support and code maintainability.
           </Tool>
           <Tool title="React">
-            React, a powerful JavaScript library, empowers me to build user interfaces with a component-based architecture. It facilitates the creation of reusable UI components, enhancing the speed and efficiency of the development process.
+            My core frontend library for building user interfaces with a component-based architecture, enabling efficient development of interactive web applications.
           </Tool>
           <Tool title="Node.js">
-            As a server-side platform built on Chrome JavaScript runtime, Node.js allows me to develop scalable network applications. It is known for its non-blocking, event-driven I/O model, making it lightweight and efficient, perfect for data-intensive real-time applications.
+            The backbone of my server-side development, perfect for building scalable network applications with its event-driven, non-blocking I/O model.
           </Tool>
-          <Tool title="Express.js">
-            A minimal and flexible Node.js web application framework, Express.js helps me quickly build robust APIs. It streamlines the creation of server-side logic, offering a range of features to develop web and mobile applications.
+          <Tool title="Supabase">
+            My preferred backend-as-a-service platform for real-time applications, providing PostgreSQL databases, authentication, and auto-generated APIs.
           </Tool>
-          <Tool title="GraphQL">
-            GraphQL serves as a query language for APIs, enabling me to request only the data I need, and nothing more. It provides a more efficient, powerful, and flexible alternative to the traditional REST API, allowing for more precise data retrieval.
+          <Tool title="Firebase">
+            Used for projects requiring real-time updates, cloud functions, and scalable hosting with minimal backend configuration.
           </Tool>
           <Tool title="MongoDB">
-            MongoDB, a popular NoSQL database, offers flexibility in handling data storage. I use it to create scalable and performance-oriented database solutions, facilitating the storage of data in a JSON-like format, which makes it easier to pass data between client and server.
+            NoSQL database of choice for projects requiring flexible schema design and document-based data storage.
+          </Tool>
+          <Tool title="PostgreSQL">
+            Robust relational database for projects requiring complex queries, transactions, and data integrity.
+          </Tool>
+          <Tool title="MySQL">
+            Traditional SQL database used for structured data management in enterprise applications.
+          </Tool>
+          <Tool title="NVDA">
+            Screen reader for testing web accessibility on Windows, ensuring content is perceivable by visually impaired users.
+          </Tool>
+          <Tool title="VoiceOver">
+            Built-in screen reader for MacOS, essential for accessibility testing on Apple devices.
+          </Tool>
+          <Tool title="Lighthouse">
+            Chrome DevTools&apos; built-in auditing tool for performance, accessibility, and SEO optimization.
+          </Tool>
+          <Tool title="GraphQL">
+            Query language for APIs that enables precise data fetching and reduces over-fetching of data.
+          </Tool>
+          <Tool title="TailwindCSS">
+            Utility-first CSS framework for rapid UI development with highly customizable design systems.
           </Tool>
           <Tool title="HTML/CSS">
-            HTML and CSS are foundational technologies in web development. I utilize HTML to structure web pages and use CSS to style them, crafting visually captivating and responsive web designs that offer excellent user experiences.
-          </Tool>
-          <Tool title="RESTful APIs & Responsive Design">
-            I specialize in crafting RESTful APIs, which enable the interaction between different software components in a standard way. Additionally, my expertise in responsive design ensures a seamless and pleasing user experience across a variety of devices and screen sizes.
+            Core web technologies for structuring content and creating responsive, visually appealing designs.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
@@ -121,9 +139,6 @@ export default function Uses() {
           </Tool>
           <Tool title="Slack">
             A business communication platform offering a variety of channels and direct messaging, integrations, and features that foster collaboration and streamline workflows within teams.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and making sure I still have lots of time for deep work during the week.
           </Tool>
         </ToolsSection>
 

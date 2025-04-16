@@ -12,20 +12,46 @@ import logoPortfolio from '@/images/logos/port.png'
 import logoAse from '@/images/logos/ase_logo2.png'
 import logoFuaad from '@/images/logos/fuaad.svg'
 import logoEip from '@/images/logos/eip-pod.png'
+import logoYyz from '@/images/logos/yyz-creates.png'
+import logoAccess from '@/images/logos/access-analyzer.png'
+import logoYoutoob from '@/images/logos/youtoob-mg.png'
+import logoWelcome from '@/images/logos/welcome-canada.png'
 
 const projects = [
+  {
+    name: 'YYZ Creates',
+    description:
+      'A dynamic platform showcasing Toronto-based creative professionals and their work, connecting local talent with opportunities in the creative industry.',
+    link: { href: 'https://yyz-creates.com/', label: 'yyz-creates • Next' },
+    logo: logoYyz,
+  },
+  {
+    name: 'Welcome to Canada AI',
+    description:
+      'An AI-powered platform designed to assist newcomers to Canada, providing personalized guidance on immigration processes, settlement services, and cultural integration through interactive conversations.',
+    link: { href: 'https://welcome-to-canada-ai.lovable.app/', label: 'welcome-to-canada • Next' },
+    logo: logoWelcome,
+  },
+  {
+    name: 'Access Analyzer',
+    description:
+      'A comprehensive web accessibility testing tool that helps developers and designers ensure their websites meet WCAG standards and are accessible to all users.',
+    link: { href: 'https://accessanalyzer.info/', label: 'accessanalyzer • React' },
+    logo: logoAccess,
+  },
+  {
+    name: 'YouToob MG',
+    description:
+      'A powerful YouTube channel management dashboard that provides analytics, content scheduling, and audience engagement tools for content creators.',
+    link: { href: 'https://youtoobmg.info/dashboard', label: 'youtoobmg • Next' },
+    logo: logoYoutoob,
+  },
   {
     name: 'Ase Community Foundation',
     description:
       'A verified A++ non-profit organization dedicated to supporting black Canadians with disabilities by providing comprehensive resources and assistance to foster inclusivity and empowerment.',
     link: { href: 'https://asecommunityfoundation.com/', label: 'asecommunityfoundation • Javascript' },
     logo: logoAse,
-  },
-  {
-    name: 'OpsHub',
-    description: 'A streamlined data management solution offering secure CRUD operations, advanced search capabilities, robust user authentication, and role-based access control for optimized business operations.',
-    link: { href: 'https://github.com/AdeFuaad/restaurant-management-system', label: 'OpsHub  •  Java' },
-    logo: logoFuaad,
   },
   {
     name: 'AI Summarizer',
@@ -40,6 +66,19 @@ const projects = [
     logo: logoHelioStream,
   },
   {
+    name: 'Portfolio',
+    description:
+      "A curated showcase of projects illustrating technical expertise and innovative solutions in software development.",
+    link: { href: '/', label: 'fuaad shobambi • Next' },
+    logo: logoPortfolio,
+  },
+  {
+    name: 'OpsHub',
+    description: 'A streamlined data management solution offering secure CRUD operations, advanced search capabilities, robust user authentication, and role-based access control for optimized business operations.',
+    link: { href: 'https://github.com/AdeFuaad/restaurant-management-system', label: 'OpsHub  •  Java' },
+    logo: logoFuaad,
+  },
+  {
     name: 'LineLogic',
     description:
       'A website that allows users view the top youtube videos and github repositories to further improve their coding skills',
@@ -52,13 +91,6 @@ const projects = [
       'A global weather forecast tool providing 5-day city-specific predictions.',
     link: { href: 'https://adefuaad.github.io/weatherApp/', label: 'metaclima • Javascript' },
     logo: logoClima,
-  },
-  {
-    name: 'Portfolio',
-    description:
-      "A curated showcase of projects illustrating technical expertise and innovative solutions in software development.",
-    link: { href: '/', label: 'fuaad shobambi • Next' },
-    logo: logoPortfolio,
   },
   {
     name: 'EIP (Under Development)',
@@ -81,14 +113,41 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: "Things I've made trying to put my dent in the universe.",
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="Things I&apos;ve made trying to put my dent in the universe."
+      intro={
+        <>
+          <p className="mb-4">
+            Powered by high-performance hardware and cutting-edge tools:
+          </p>
+          <div className="mb-8 grid grid-cols-1 gap-4 text-sm text-zinc-600 dark:text-zinc-400">
+            <div>
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Hardware: </span>
+              MacBook Pro M1 Max • 64GB RAM • 2TB Storage
+            </div>
+            <div>
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Core Technologies: </span>
+              Next.js • TypeScript • React • Node.js • TailwindCSS
+            </div>
+            <div>
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Databases & Backend: </span>
+              Supabase • Firebase • MongoDB • PostgreSQL • MySQL
+            </div>
+            <div>
+              <span className="font-semibold text-zinc-800 dark:text-zinc-200">Accessibility & Testing: </span>
+              NVDA • VoiceOver • Lighthouse • Jest • React Testing Library
+            </div>
+          </div>
+          <p>
+            I&apos;ve worked on tons of little projects over the years but these are the ones that I&apos;m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.
+          </p>
+        </>
+      }
     >
       <ul
         role="list"
@@ -101,6 +160,8 @@ export default function Projects() {
                 src={project.logo}
                 alt=""
                 className="h-8 w-8"
+                width={32}
+                height={32}
                 unoptimized
               />
             </div>
